@@ -1,8 +1,9 @@
-# Выставляем глобальные настройки
+# Справка по git чтобы не забыть
+---
+## Выставляем глобальные настройки
 ### Имя пользователя
-'''
-git config --global user.name "[имя]"
-'''
+`git config --global user.name "[имя]"`
+
 
 ### Почта
 git config --global user.email "[адрес электронной почты]"
@@ -18,7 +19,7 @@ ssh-keygen -t ed25519 -c "[адрес электронной почты]"
 
 ### Связать удаленный git проект с текущим (если предварительно на github создали пустой репозиторий с таким же именем)
 git remote add origin git@github.com:Alexander-Savelev/test-git-project.git
-git push -u origin master
+git push -u origin master #только первый раз потом можно просто git push 
 
 
 
