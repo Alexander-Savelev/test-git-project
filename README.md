@@ -60,3 +60,14 @@
 
 ### Загружает историю из удалённого репозитория и объединяет её с локальной. pull = fetch + merge
 `$ git pull`
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  untracked --> staged;
+  staged --> changed;
+  
+``` 
